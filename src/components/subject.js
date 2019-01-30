@@ -1,5 +1,7 @@
 import React from 'react'
 import Select from 'react-select'
+import { Row, Col } from 'react-grid-system'
+import { Collapse } from 'react-collapse'
 
 import Components from '../components/components'
 
@@ -62,6 +64,19 @@ class Subject extends React.Component {
 
   }
 
+  get name() {
+    let subject = this.state.currentSubject;
+    let level = this.state.currentLevel;
+
+    if(subject === null) {
+      return this.props.name;
+    } else if(level === null) {
+      return subject.name;
+    } else {
+      return subject.name + ' – ' + level.toUpperCase();
+    }
+  }
+
   get subjects() {
     let subjects = []
 
@@ -98,41 +113,53 @@ class Subject extends React.Component {
   render() {
 
     return (
-      <div className="subject">
+      <div style={{
+        padding: 30,
+        borderRadius: 8,
+        border: '1px solid lightgrey'
+      }}>
         <div style={{
           marginBottom: 20
         }}>
-          <h1 style={{
+          <h2 style={{
             marginBottom: 10
-          }}>{this.props.name}</h1>
-          <span>{this.props.subtitle}</span>
+          }}>{this.name}</h2>
+          <small>{this.props.subtitle}</small>
 
-          <p>
-            <strong>{this.state.totalMark}/100 marks</strong>
+          <p style={{
+            margin: '20px 0'
+          }}>
+            <span>Weighted marks: <strong>{this.state.totalMark}/100</strong></span>
 
             <br />
 
-            <em>Grade: {this.grade}</em>
+            <span>Grade: <strong>{this.grade}</strong></span>
           </p>
         </div>
 
-        <div style={{
-          marginBottom: 30
-        }}>
-          <h3>Select subject</h3>
+        <Row>
+          <Col sm={6}>
+            <div style={{
+              marginBottom: 30
+            }}>
+              <h3>Select subject</h3>
 
-          <Select onChange={this.changeSubject}
-                  options={this.subjects} />
-        </div>
+              <Select onChange={this.changeSubject}
+                      options={this.subjects} />
+            </div>
+          </Col>
 
-        <div style={{
-          marginBottom: 30
-        }}>
-          <h3>Select level</h3>
+          <Col sm={6}>
+            <div style={{
+              marginBottom: 30
+            }}>
+              <h3>Select level</h3>
 
-          <Select onChange={this.changeLevel}
-                  options={this.levels} />
-        </div>
+              <Select onChange={this.changeLevel}
+                      options={this.levels} />
+            </div>
+          </Col>
+        </Row>
 
         <div>
           <h3 style={{
