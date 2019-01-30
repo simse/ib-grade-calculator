@@ -1,49 +1,55 @@
 import React from 'react';
 
 class Assessment extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.handleChange = this.handleChange.bind(this)
+  }
+
+
+  handleChange(event) {
+
+    this.updateMarks(event.target.value)
+
+  }
+
+  updateMarks(marks) {
+    let component = this.props.component;
+
+    this.props.onChange(component.id, Math.round( (marks/component.max_marks*100) / 100 * this.props.component.weight * 10 ) / 10)
+  }
+
   render() {
     return (
       <div className="component">
-        <h4>{this.props.name}</h4>
+        <h4 style={{
+          marginBottom: 10
+        }}>{this.props.component.name}</h4>
 
         <div style={{
-          display: 'flex',
-          textAlign: 'center',
-          alignItems: 'center'
+          marginBottom: 40
         }}>
 
-          <div>
-            <label>
-              Marks: <br/>
-              <input type="text" maxLength="3" style={{
-                fontSize: '5.5rem',
-                outline: '0',
-                maxWidth: '150px',
-                borderRadius: 6,
-                border: '1px solid lightgrey'
-              }} />
-            </label>
-          </div>
-
-          <div style={{
-            padding: '0 20px',
-            fontSize: '4rem',
-            opacity: 0.2
+          <div display={{
+            display: 'flex'
           }}>
-            <span>=</span>
-          </div>
-
-          <div>
             <label>
-              Grade: <br/>
-              <input type="text" maxLength="1" style={{
-                fontSize: '5.5rem',
+              Marks:&nbsp;&nbsp;
+              <input
+                type="text"
+                maxLength="3"
+                onChange={this.handleChange}
+                style={{
+                fontSize: '1rem',
                 outline: '0',
-                maxWidth: '150px',
+                maxWidth: '50px',
                 borderRadius: 6,
                 border: '1px solid lightgrey'
               }} />
             </label>
+
+            <span>/{this.props.component.max_marks}</span>
           </div>
         </div>
       </div>
