@@ -1,0 +1,133 @@
+{
+  "id": "ENGLISH_A_LANG_LIT",
+	"name": "English A Language & Literature",
+	"desc": "Language A: English Language & Literature",
+  "group": 1,
+	"levels": ["sl", "hl"],
+  "boundaries": {
+    "sl": [
+      {
+        "from": 0,
+        "to": 11
+      },
+      {
+        "from": 12,
+        "to": 25
+      },
+      {
+        "from": 26,
+        "to": 39
+      },
+      {
+        "from": 40,
+        "to": 53
+      },
+      {
+        "from": 54,
+        "to": 67
+      },
+      {
+        "from": 68,
+        "to": 81
+      },
+      {
+        "from": 82,
+        "to": 100
+      }
+    ],
+    "hl": [
+      {
+        "from": 0,
+        "to": 13
+      },
+      {
+        "from": 14,
+        "to": 27
+      },
+      {
+        "from": 28,
+        "to": 41
+      },
+      {
+        "from": 42,
+        "to": 54
+      },
+      {
+        "from": 55,
+        "to": 66
+      },
+      {
+        "from": 67,
+        "to": 79
+      },
+      {
+        "from": 80,
+        "to": 100
+      }
+    ]
+  },
+	"assessments": {
+		"sl": [{
+				"id": "PAPER_ONE",
+				"name": "Paper 1: Textual analysis",
+				"weight": 25,
+				"max_marks": 20
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2: Essay",
+				"weight": 25,
+				"max_marks": 25
+			},
+			{
+				"id": "WRITTEN_TASK",
+				"name": "Written task",
+				"weight": 20,
+				"max_marks": 25
+			},
+			{
+				"id": "IOC",
+				"name": "Individual oral commentary",
+				"weight": 15,
+				"max_marks": 30
+			},
+			{
+				"id": "IOP",
+				"name": "Further oral activity",
+				"weight": 15,
+				"max_marks": 30
+			}
+		],
+		"hl": [{
+				"id": "PAPER_ONE",
+				"name": "Paper 1: Comparative textual analysis",
+				"weight": 25,
+				"max_marks": 20
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2: Essay",
+				"weight": 25,
+				"max_marks": 25
+			},
+			{
+				"id": "WRITTEN_ASSIGNMENT",
+				"name": "Written assignment",
+				"weight": 20,
+				"max_marks": 40
+			},
+			{
+				"id": "IOC",
+				"name": "Individual oral commentary",
+				"weight": 15,
+				"max_marks": 30
+			},
+			{
+				"id": "IOP",
+				"name": "Further oral activity",
+				"weight": 15,
+				"max_marks": 30
+			}
+		]
+	}
+}
