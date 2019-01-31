@@ -23,9 +23,10 @@ class Assessment extends React.Component {
   render() {
     return (
       <div className="component">
-        <h4 style={{
-          marginBottom: 10
-        }}>{this.props.component.name}</h4>
+        <p style={{
+          marginBottom: 10,
+          fontWeight: 'bold'
+        }}>{this.props.component.name}</p>
 
         <div style={{
           marginBottom: 40

@@ -128,10 +128,12 @@ class Subject extends React.Component {
 
     return (
       <div style={{
-        padding: 30,
+        padding: 50,
         borderRadius: 8,
-        border: '1px solid lightgrey',
-        marginBottom: 20
+        //border: '1px solid lightgrey',
+        marginBottom: 20,
+        background: '#fff',
+        boxShadow: '0 5px 10px rgba(0, 0, 0, 0.05)'
       }}>
         <div style={{
           marginBottom: 20
