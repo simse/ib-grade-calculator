@@ -43,7 +43,7 @@ class Subject extends React.Component {
 
   informGrade() {
     if(this.state.currentSubject !== null && this.state.currentLevel !== null) {
-      this.props.updateGrade(this.state.currentSubject.group, this.grade)
+      this.props.updateGrade(this.state.currentSubject.group, this.grade, this.state.currentLevel)
     }
   }
 
