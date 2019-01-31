@@ -1,0 +1,116 @@
+{
+  "id": "COMPUTER_SCIENCE",
+	"name": "Computer science",
+  "group": 4,
+	"levels": ["sl", "hl"],
+  "boundaries": {
+    "sl": [
+      {
+        "from": 0,
+        "to": 15
+      },
+      {
+        "from": 16,
+        "to": 30
+      },
+      {
+        "from": 31,
+        "to": 42
+      },
+      {
+        "from": 43,
+        "to": 53
+      },
+      {
+        "from": 54,
+        "to": 64
+      },
+      {
+        "from": 65,
+        "to": 74
+      },
+      {
+        "from": 75,
+        "to": 100
+      }
+    ],
+    "hl": [
+      {
+        "from": 0,
+        "to": 14
+      },
+      {
+        "from": 15,
+        "to": 29
+      },
+      {
+        "from": 30,
+        "to": 39
+      },
+      {
+        "from": 40,
+        "to": 49
+      },
+      {
+        "from": 50,
+        "to": 59
+      },
+      {
+        "from": 60,
+        "to": 69
+      },
+      {
+        "from": 70,
+        "to": 100
+      }
+    ]
+  },
+	"assessments": {
+		"sl": [
+      {
+				"id": "PAPER_ONE",
+				"name": "Paper 1",
+				"weight": 45,
+				"max_marks": 70
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2",
+				"weight": 25,
+				"max_marks": 45
+			},
+			{
+				"id": "INTERNAL_ASSESSMENT",
+				"name": "Solution and Group 4 project",
+				"weight": 20,
+				"max_marks": 40
+			}
+		],
+		"hl": [
+      {
+				"id": "PAPER_ONE",
+				"name": "Paper 1",
+				"weight": 40,
+				"max_marks": 100
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2",
+				"weight": 20,
+				"max_marks": 65
+			},
+			{
+				"id": "PAPER_THREE",
+				"name": "Paper 3",
+				"weight": 20,
+				"max_marks": 30
+			},
+			{
+				"id": "INTERNAL_ASSESSMENT",
+				"name": "Solution & Group 4 project",
+				"weight": 20,
+				"max_marks": 40
+			}
+		]
+	}
+}

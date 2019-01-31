@@ -1,0 +1,122 @@
+{
+  "id": "BIOLOGY",
+	"name": "Biology",
+  "group": 4,
+	"levels": ["sl", "hl"],
+  "boundaries": {
+    "sl": [
+      {
+        "from": 0,
+        "to": 14
+      },
+      {
+        "from": 15,
+        "to": 25
+      },
+      {
+        "from": 26,
+        "to": 35
+      },
+      {
+        "from": 36,
+        "to": 47
+      },
+      {
+        "from": 48,
+        "to": 61
+      },
+      {
+        "from": 62,
+        "to": 73
+      },
+      {
+        "from": 74,
+        "to": 100
+      }
+    ],
+    "hl": [
+      {
+        "from": 0,
+        "to": 14
+      },
+      {
+        "from": 15,
+        "to": 24
+      },
+      {
+        "from": 25,
+        "to": 36
+      },
+      {
+        "from": 37,
+        "to": 51
+      },
+      {
+        "from": 52,
+        "to": 63
+      },
+      {
+        "from": 64,
+        "to": 77
+      },
+      {
+        "from": 78,
+        "to": 100
+      }
+    ]
+  },
+	"assessments": {
+		"sl": [
+      {
+				"id": "PAPER_ONE",
+				"name": "Paper 1",
+				"weight": 20,
+				"max_marks": 30
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2",
+				"weight": 40,
+				"max_marks": 50
+			},
+			{
+				"id": "PAPER_THREE",
+				"name": "Paper 3",
+				"weight": 20,
+				"max_marks": 35
+			},
+			{
+				"id": "INTERNAL_ASSESSMENT",
+				"name": "Internal assessment",
+				"weight": 20,
+				"max_marks": 24
+			}
+		],
+		"hl": [
+      {
+				"id": "PAPER_ONE",
+				"name": "Paper 1",
+				"weight": 20,
+				"max_marks": 40
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2",
+				"weight": 36,
+				"max_marks": 95
+			},
+			{
+				"id": "PAPER_THREE",
+				"name": "Paper 3",
+				"weight": 24,
+				"max_marks": 45
+			},
+			{
+				"id": "INTERNAL_ASSESSMENT",
+				"name": "Internal assessment",
+				"weight": 20,
+				"max_marks": 24
+			}
+		]
+	}
+}

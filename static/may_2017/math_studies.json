@@ -1,0 +1,60 @@
+{
+  "id": "MATH_STUDIES",
+	"name": "Mathematical Studies",
+  "group": 5,
+	"levels": ["sl"],
+  "boundaries": {
+    "sl": [
+      {
+        "from": 0,
+        "to": 15
+      },
+      {
+        "from": 16,
+        "to": 29
+      },
+      {
+        "from": 30,
+        "to": 39
+      },
+      {
+        "from": 40,
+        "to": 52
+      },
+      {
+        "from": 53,
+        "to": 65
+      },
+      {
+        "from": 66,
+        "to": 77
+      },
+      {
+        "from": 78,
+        "to": 100
+      }
+    ]
+  },
+	"assessments": {
+		"sl": [
+      {
+				"id": "PAPER_ONE",
+				"name": "Paper 1",
+				"weight": 40,
+				"max_marks": 90
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2",
+				"weight": 40,
+				"max_marks": 90
+			},
+			{
+				"id": "INTERNAL_ASSESSMENT",
+				"name": "Internal assessment",
+				"weight": 20,
+				"max_marks": 20
+			}
+		]
+	}
+}
