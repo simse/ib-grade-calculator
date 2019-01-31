@@ -24,17 +24,19 @@ class Summary extends React.Component {
     return (
       <div style={{
         position: 'fixed',
-        bottom: 0,
+        bottom: 20,
         left: 0,
         width: '100%',
-        background: '#fff',
-        borderTop: '1px solid lightgrey'
       }}>
         <div style={{
-          padding: 20,
+          padding: 30,
           margin: '0 auto',
-          maxWidth: 1200,
-          display: 'flex'
+          maxWidth: 1400,
+          display: 'flex',
+          background: 'rgba(255, 255, 255, 0.9)',
+          borderRadius: 12,
+          boxShadow: '0 5px 10px rgba(0, 0, 0, 0.05)',
+          border: '1px solid rgba(0, 0, 0, 0.05)',
         }}>
           <h1 style={{
             fontSize: '1.2rem',

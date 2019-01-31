@@ -85,7 +85,7 @@ class Calculator extends React.Component {
   render() {
     return (
       <div style={{
-        paddingBottom: 50
+        paddingBottom: 80
       }}>
         <Subject
           name="Group 1"
