@@ -18,7 +18,9 @@ class Subject extends React.Component {
 
     state.currentSubject = this.search(currentSubject.value)
 
-    this.setState(state)
+    this.setState(state, function afterStateChange() {
+      this.informGrade()
+    })
   }
 
   changeLevel = (newLevel) => {
@@ -26,11 +28,23 @@ class Subject extends React.Component {
 
     state.currentLevel = newLevel.value;
 
-    this.setState(state)
+    this.setState(state, function afterStateChange() {
+      this.informGrade()
+    })
   }
 
   updateMarks = (marks) => {
-    this.setState({totalMark: Math.round( marks * 10 ) / 10});
+    let newMark = Math.round( marks * 10 ) / 10;
+
+    this.setState({totalMark: newMark}, function afterStateChange() {
+      this.informGrade()
+    });
+  }
+
+  informGrade() {
+    if(this.state.currentSubject !== null && this.state.currentLevel !== null) {
+      this.props.updateGrade(this.state.currentSubject.group, this.grade)
+    }
   }
 
   search(id) {

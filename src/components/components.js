@@ -44,8 +44,8 @@ class Components extends React.Component {
 
       for(let c of this.props.components) {
         a.push(
-          <Col sm={4}>
-            <Assessment key={c.id} component={c} onChange={this.updateMark} />
+          <Col sm={4} key={c.id}>
+            <Assessment component={c} onChange={this.updateMark} />
           </Col>
         )
       }
