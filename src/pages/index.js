@@ -27,7 +27,6 @@ export const query = graphql`
       node {
         id,
         name,
-        desc,
         group,
         levels,
         boundaries {

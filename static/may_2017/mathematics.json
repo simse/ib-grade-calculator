@@ -1,0 +1,116 @@
+{
+  "id": "MATHEMATICS",
+	"name": "Mathematics",
+  "group": 5,
+	"levels": ["sl", "hl"],
+  "boundaries": {
+    "sl": [
+      {
+        "from": 0,
+        "to": 13
+      },
+      {
+        "from": 14,
+        "to": 27
+      },
+      {
+        "from": 28,
+        "to": 38
+      },
+      {
+        "from": 39,
+        "to": 50
+      },
+      {
+        "from": 51,
+        "to": 62
+      },
+      {
+        "from": 63,
+        "to": 75
+      },
+      {
+        "from": 76,
+        "to": 100
+      }
+    ],
+    "hl": [
+      {
+        "from": 0,
+        "to": 13
+      },
+      {
+        "from": 14,
+        "to": 28
+      },
+      {
+        "from": 29,
+        "to": 41
+      },
+      {
+        "from": 42,
+        "to": 55
+      },
+      {
+        "from": 56,
+        "to": 67
+      },
+      {
+        "from": 68,
+        "to": 79
+      },
+      {
+        "from": 80,
+        "to": 100
+      }
+    ]
+  },
+	"assessments": {
+		"sl": [
+      {
+				"id": "PAPER_ONE",
+				"name": "Paper 1",
+				"weight": 40,
+				"max_marks": 90
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2",
+				"weight": 40,
+				"max_marks": 90
+			},
+			{
+				"id": "INTERNAL_ASSESSMENT",
+				"name": "Internal assessment",
+				"weight": 20,
+				"max_marks": 20
+			}
+		],
+		"hl": [
+      {
+				"id": "PAPER_ONE",
+				"name": "Paper 1",
+				"weight": 30,
+				"max_marks": 120
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2",
+				"weight": 30,
+				"max_marks": 120
+			},
+			{
+				"id": "PAPER_THREE",
+				"name": "Paper 3",
+				"weight": 20,
+				"max_marks": 60
+			},
+			{
+				"id": "INTERNAL_ASSESSMENT",
+				"name": "Internal assessment",
+				"weight": 20,
+				"max_marks": 20
+			}
+		]
+	}
+}

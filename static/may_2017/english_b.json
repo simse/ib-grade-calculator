@@ -1,0 +1,133 @@
+{
+  "id": "ENGLISH_B",
+	"name": "English B",
+	"desc": "Language B: English Language",
+  "group": 2,
+	"levels": ["sl", "hl"],
+  "boundaries": {
+    "sl": [
+      {
+        "from": 0,
+        "to": 13
+      },
+      {
+        "from": 14,
+        "to": 29
+      },
+      {
+        "from": 30,
+        "to": 47
+      },
+      {
+        "from": 48,
+        "to": 61
+      },
+      {
+        "from": 62,
+        "to": 72
+      },
+      {
+        "from": 73,
+        "to": 86
+      },
+      {
+        "from": 87,
+        "to": 100
+      }
+    ],
+    "hl": [
+      {
+        "from": 0,
+        "to": 15
+      },
+      {
+        "from": 16,
+        "to": 30
+      },
+      {
+        "from": 31,
+        "to": 46
+      },
+      {
+        "from": 47,
+        "to": 60
+      },
+      {
+        "from": 61,
+        "to": 73
+      },
+      {
+        "from": 74,
+        "to": 87
+      },
+      {
+        "from": 88,
+        "to": 100
+      }
+    ]
+  },
+	"assessments": {
+		"sl": [{
+				"id": "PAPER_ONE",
+				"name": "Paper 1: Receptive skills",
+				"weight": 25,
+				"max_marks": 45
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2: Written productive skills",
+				"weight": 25,
+				"max_marks": 25
+			},
+			{
+				"id": "WRITTEN_ASSIGNMENT",
+				"name": "Written assignment",
+				"weight": 20,
+				"max_marks": 24
+			},
+			{
+				"id": "IO",
+				"name": "Individual oral",
+				"weight": 20,
+				"max_marks": 10
+			},
+			{
+				"id": "IOA",
+				"name": "Interactive oral activity",
+				"weight": 10,
+				"max_marks": 10
+			}
+		],
+		"hl": [{
+				"id": "PAPER_ONE",
+				"name": "Paper 1: Receptive skills",
+				"weight": 25,
+				"max_marks": 60
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2: Written productive skills",
+				"weight": 25,
+				"max_marks": 45
+			},
+			{
+				"id": "WRITTEN_ASSIGNMENT",
+				"name": "Written assignment",
+				"weight": 20,
+				"max_marks": 24
+			},
+			{
+				"id": "IO",
+				"name": "Individual oral",
+				"weight": 20,
+				"max_marks": 20
+			},
+			{
+				"id": "IOA",
+				"name": "Interactive oral activity",
+				"weight": 10,
+				"max_marks": 20
+			}
+		]
+	}
+}

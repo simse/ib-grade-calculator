@@ -30,7 +30,7 @@ class Subject extends React.Component {
   }
 
   updateMarks = (marks) => {
-    this.setState({totalMark: marks});
+    this.setState({totalMark: Math.round( marks * 10 ) / 10});
   }
 
   search(id) {
@@ -48,7 +48,7 @@ class Subject extends React.Component {
     }
 
     let boundaries = this.state.currentSubject.boundaries[this.state.currentLevel];
-    let marks = this.state.totalMark;
+    let marks = Math.round(this.state.totalMark);
 
     let grade = 1;
     for(let b of boundaries) {
@@ -116,7 +116,8 @@ class Subject extends React.Component {
       <div style={{
         padding: 30,
         borderRadius: 8,
-        border: '1px solid lightgrey'
+        border: '1px solid lightgrey',
+        marginBottom: 20
       }}>
         <div style={{
           marginBottom: 20
@@ -137,37 +138,39 @@ class Subject extends React.Component {
           </p>
         </div>
 
-        <Row>
-          <Col sm={6}>
-            <div style={{
-              marginBottom: 30
-            }}>
-              <h3>Select subject</h3>
+        <Collapse isOpened={true}>
+          <Row>
+            <Col sm={6}>
+              <div style={{
+                marginBottom: 30
+              }}>
+                <h3>Select subject</h3>
 
-              <Select onChange={this.changeSubject}
-                      options={this.subjects} />
-            </div>
-          </Col>
+                <Select onChange={this.changeSubject}
+                        options={this.subjects} />
+              </div>
+            </Col>
 
-          <Col sm={6}>
-            <div style={{
-              marginBottom: 30
-            }}>
-              <h3>Select level</h3>
+            <Col sm={6}>
+              <div style={{
+                marginBottom: 30
+              }}>
+                <h3>Select level</h3>
 
-              <Select onChange={this.changeLevel}
-                      options={this.levels} />
-            </div>
-          </Col>
-        </Row>
+                <Select onChange={this.changeLevel}
+                        options={this.levels} />
+              </div>
+            </Col>
+          </Row>
 
-        <div>
-          <h3 style={{
+          <div>
+            <h3 style={{
 
-          }}>Components</h3>
+            }}>Components</h3>
 
-          <Components components={this.assessments} updateMarks={this.updateMarks} />
-        </div>
+            <Components components={this.assessments} updateMarks={this.updateMarks} />
+          </div>
+        </Collapse>
       </div>
     )
   }

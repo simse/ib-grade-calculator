@@ -1,4 +1,5 @@
 import React from 'react'
+import { Row, Col } from 'react-grid-system'
 
 import Assessment from '../components/assessment'
 
@@ -30,8 +31,6 @@ class Components extends React.Component {
       totalMark += mark;
     }
 
-    //console.log(this.props)
-
     this.props.updateMarks(totalMark)
   }
 
@@ -44,16 +43,20 @@ class Components extends React.Component {
       let a = [];
 
       for(let c of this.props.components) {
-        a.push(<Assessment key={c.id} component={c} onChange={this.updateMark} />)
+        a.push(
+          <Col sm={4}>
+            <Assessment key={c.id} component={c} onChange={this.updateMark} />
+          </Col>
+        )
       }
 
       message = a;
     }
 
     return (
-      <div>
+      <Row>
         {message}
-      </div>
+      </Row>
     )
   }
 }

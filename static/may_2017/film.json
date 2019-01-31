@@ -1,0 +1,116 @@
+{
+  "id": "FILM",
+	"name": "Film",
+  "group": 6,
+	"levels": ["sl", "hl"],
+  "boundaries": {
+    "sl": [
+      {
+        "from": 0,
+        "to": 13
+      },
+      {
+        "from": 14,
+        "to": 28
+      },
+      {
+        "from": 29,
+        "to": 41
+      },
+      {
+        "from": 42,
+        "to": 54
+      },
+      {
+        "from": 55,
+        "to": 68
+      },
+      {
+        "from": 69,
+        "to": 81
+      },
+      {
+        "from": 82,
+        "to": 100
+      }
+    ],
+    "hl": [
+      {
+        "from": 0,
+        "to": 13
+      },
+      {
+        "from": 14,
+        "to": 29
+      },
+      {
+        "from": 30,
+        "to": 41
+      },
+      {
+        "from": 42,
+        "to": 54
+      },
+      {
+        "from": 55,
+        "to": 67
+      },
+      {
+        "from": 68,
+        "to": 80
+      },
+      {
+        "from": 81,
+        "to": 100
+      }
+    ]
+  },
+	"assessments": {
+		"sl": [
+      {
+				"id": "TEXTUAL_ANALYSIS",
+				"name": "Textual Analysis",
+				"weight": 30,
+				"max_marks": 25
+			},
+			{
+				"id": "COMPARATIVE_STUDY",
+				"name": "Comparative study",
+				"weight": 30,
+				"max_marks": 25
+			},
+			{
+				"id": "FILM_PORTFOLIO",
+				"name": "Film portfolio",
+				"weight": 40,
+				"max_marks": 50
+			}
+		],
+		"hl": [
+      {
+				"id": "TEXTUAL_ANALYSIS",
+				"name": "Textual Analysis",
+				"weight": 20,
+				"max_marks": 25
+			},
+			{
+				"id": "COMPARATIVE_STUDY",
+				"name": "Comparative study",
+				"weight": 20,
+				"max_marks": 25
+			},
+			{
+				"id": "FILM_PORTFOLIO",
+				"name": "Film portfolio",
+				"weight": 25,
+				"max_marks": 50
+			},
+			{
+				"id": "FILM_PROJECT",
+				"name": "Collaborative film project",
+				"weight": 35,
+				"max_marks": 24
+			}
+		]
+	}
+}

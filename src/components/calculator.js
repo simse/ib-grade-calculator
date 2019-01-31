@@ -22,7 +22,17 @@ class Calculator extends React.Component {
   render() {
     return (
       <div>
-        <Subject name="Language A" subtitle="Language A: Literature" subjects={this.getGroup(1)} />
+        <Subject name="Language A" subtitle="Studies in language and literature" subjects={this.getGroup(1)} />
+
+        <Subject name="Language B" subtitle="Language acquistion" subjects={this.getGroup(2)} />
+
+        <Subject name="Social science" subtitle="Individuals and societies" subjects={this.getGroup(3)} />
+
+        <Subject name="Natural science" subtitle="The sciences" subjects={this.getGroup(4)} />
+
+        <Subject name="Mathematics" subtitle="Mathematics" subjects={this.getGroup(5)} />
+
+        <Subject name="Art" subtitle="The arts" subjects={this.getGroup(6)} />
       </div>
     );
   }
