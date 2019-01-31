@@ -91,19 +91,19 @@
 				"id": "PAPER_ONE",
 				"name": "Paper 1",
 				"weight": 30,
-				"max_marks": 120
+				"max_marks": 100
 			},
 			{
 				"id": "PAPER_TWO",
 				"name": "Paper 2",
 				"weight": 30,
-				"max_marks": 120
+				"max_marks": 100
 			},
 			{
 				"id": "PAPER_THREE",
 				"name": "Paper 3",
 				"weight": 20,
-				"max_marks": 60
+				"max_marks": 50
 			},
 			{
 				"id": "INTERNAL_ASSESSMENT",
