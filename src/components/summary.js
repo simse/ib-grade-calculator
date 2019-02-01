@@ -11,10 +11,8 @@ class Summary extends React.Component {
       return '#ff7675';
     } else if(grade < 30) {
       return '#ffeaa7';
-    } else if(grade < 40) {
-      return '#81ecec';
     } else {
-      return '#55efc4';
+      return '#55ef7e';
     }
   }
 
@@ -23,9 +21,6 @@ class Summary extends React.Component {
 
     return (
       <div style={{
-        position: 'fixed',
-        bottom: 20,
-        left: 0,
         width: '100%',
       }}>
         <div style={{
