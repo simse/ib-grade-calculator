@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `IB Grade Calculator`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Use this handy tool to calculate your estimated IB grade, or find out which exams you need to focus the most on.`,
     author: `@simse`,
   },
   pathPrefix: `/labs/ib-grade-calculator`,
