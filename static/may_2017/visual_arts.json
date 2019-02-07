@@ -1,0 +1,110 @@
+{
+  "id": "VISUAL_ARTS",
+	"name": "Visual Arts",
+  "group": 6,
+	"levels": ["sl", "hl"],
+  "boundaries": {
+    "sl": [
+      {
+        "from": 0,
+        "to": 12
+      },
+      {
+        "from": 13,
+        "to": 25
+      },
+      {
+        "from": 26,
+        "to": 40
+      },
+      {
+        "from": 41,
+        "to": 53
+      },
+      {
+        "from": 54,
+        "to": 70
+      },
+      {
+        "from": 71,
+        "to": 84
+      },
+      {
+        "from": 85,
+        "to": 100
+      }
+    ],
+    "hl": [
+      {
+        "from": 0,
+        "to": 12
+      },
+      {
+        "from": 13,
+        "to": 25
+      },
+      {
+        "from": 26,
+        "to": 40
+      },
+      {
+        "from": 41,
+        "to": 54
+      },
+      {
+        "from": 55,
+        "to": 70
+      },
+      {
+        "from": 71,
+        "to": 84
+      },
+      {
+        "from": 85,
+        "to": 100
+      }
+    ]
+  },
+	"assessments": {
+		"sl": [
+      {
+				"id": "COMPARATIVE_STUDY",
+				"name": "Comparative study",
+				"weight": 20,
+				"max_marks": 30
+			},
+			{
+				"id": "PROCESS_PORTFOLIO",
+				"name": "Process portfolio",
+				"weight": 40,
+				"max_marks": 34
+			},
+			{
+				"id": "EXHIBITION",
+				"name": "Exhibition",
+				"weight": 40,
+				"max_marks": 30
+			}
+		],
+		"hl": [
+      {
+				"id": "COMPARATIVE_STUDY",
+				"name": "Comparative study",
+				"weight": 20,
+				"max_marks": 42
+			},
+			{
+				"id": "PROCESS_PORTFOLIO",
+				"name": "Process portfolio",
+				"weight": 40,
+				"max_marks": 34
+			},
+			{
+				"id": "EXHIBITION",
+				"name": "Exhibition",
+				"weight": 40,
+				"max_marks": 30
+			}
+		]
+	}
+}

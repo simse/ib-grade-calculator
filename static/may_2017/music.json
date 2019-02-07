@@ -1,0 +1,128 @@
+{
+  "id": "MUSIC",
+	"name": "Music",
+  "group": 6,
+	"levels": ["sl", "hl"],
+  "boundaries": {
+    "sl": [
+      {
+        "from": 0,
+        "to": 14
+      },
+      {
+        "from": 15,
+        "to": 30
+      },
+      {
+        "from": 31,
+        "to": 49
+      },
+      {
+        "from": 50,
+        "to": 60
+      },
+      {
+        "from": 61,
+        "to": 66
+      },
+      {
+        "from": 67,
+        "to": 76
+      },
+      {
+        "from": 77,
+        "to": 100
+      }
+    ],
+    "hl": [
+      {
+        "from": 0,
+        "to": 14
+      },
+      {
+        "from": 15,
+        "to": 30
+      },
+      {
+        "from": 31,
+        "to": 46
+      },
+      {
+        "from": 47,
+        "to": 55
+      },
+      {
+        "from": 56,
+        "to": 67
+      },
+      {
+        "from": 68,
+        "to": 76
+      },
+      {
+        "from": 77,
+        "to": 100
+      }
+    ]
+  },
+	"assessments": {
+		"sl": [
+      {
+				"id": "LISTENING_PAPER",
+				"name": "Listening paper",
+				"weight": 30,
+				"max_marks": 100
+			},
+			{
+				"id": "MUSICAL_LINK_INVESTIGATION",
+				"name": "Musical links investigation",
+				"weight": 20,
+				"max_marks": 20
+			},
+			{
+				"id": "CREATING",
+				"name": "Creating (SLC)",
+				"weight": 30,
+				"max_marks": 30
+			},
+			{
+				"id": "SOLO_PERFORMANCE",
+				"name": "Solo peforming (SLS)",
+				"weight": 20,
+				"max_marks": 20
+			},
+			{
+				"id": "GROUP_PERFORMANCE",
+				"name": "Group performance (SLG)",
+				"weight": 20,
+				"max_marks": 20
+			}
+		],
+		"hl": [
+      {
+				"id": "LISTENING_PAPER",
+				"name": "Listening paper",
+				"weight": 30,
+				"max_marks": 140
+			},
+			{
+				"id": "MUSICAL_LINK_INVESTIGATION",
+				"name": "Musical links investigation",
+				"weight": 20,
+				"max_marks": 20
+			},
+			{
+				"id": "CREATING",
+				"name": "Creating",
+				"weight": 25,
+				"max_marks": 30
+			},
+			{
+				"id": "SOLO_PERFORMANCE",
+				"name": "Solo peforming",
+				"weight": 25,
+				"max_marks": 20
+			}
+		]
+	}
+}

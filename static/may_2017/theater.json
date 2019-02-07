@@ -1,0 +1,116 @@
+{
+  "id": "THEATRE",
+	"name": "Theatre",
+  "group": 6,
+	"levels": ["sl", "hl"],
+  "boundaries": {
+    "sl": [
+      {
+        "from": 0,
+        "to": 8
+      },
+      {
+        "from": 9,
+        "to": 19
+      },
+      {
+        "from": 20,
+        "to": 30
+      },
+      {
+        "from": 31,
+        "to": 47
+      },
+      {
+        "from": 48,
+        "to": 64
+      },
+      {
+        "from": 65,
+        "to": 80
+      },
+      {
+        "from": 81,
+        "to": 100
+      }
+    ],
+    "hl": [
+      {
+        "from": 0,
+        "to": 9
+      },
+      {
+        "from": 10,
+        "to": 20
+      },
+      {
+        "from": 21,
+        "to": 32
+      },
+      {
+        "from": 33,
+        "to": 48
+      },
+      {
+        "from": 49,
+        "to": 64
+      },
+      {
+        "from": 65,
+        "to": 81
+      },
+      {
+        "from": 82,
+        "to": 100
+      }
+    ]
+  },
+	"assessments": {
+		"sl": [
+			{
+				"id": "TASK_TWO",
+				"name": "Task 2: Director’s notebook",
+				"weight": 35,
+				"max_marks": 32
+			},
+			{
+				"id": "TASK_THREE",
+				"name": "Task 3: Research presentation",
+				"weight": 30,
+				"max_marks": 32
+			},
+			{
+				"id": "TASK_FOUR",
+				"name": "Task 4: Collaborative project",
+				"weight": 35,
+				"max_marks": 32
+			}
+		],
+		"hl": [
+      {
+				"id": "TASK_ONE",
+				"name": "Task 1: Solo theatre piece",
+				"weight": 30,
+				"max_marks": 140
+			},
+      {
+				"id": "TASK_TWO",
+				"name": "Task 2: Director’s notebook",
+				"weight": 25,
+				"max_marks": 32
+			},
+			{
+				"id": "TASK_THREE",
+				"name": "Task 3: Research presentation",
+				"weight": 25,
+				"max_marks": 32
+			},
+			{
+				"id": "TASK_FOUR",
+				"name": "Task 4: Collaborative project",
+				"weight": 25,
+				"max_marks": 32
+			}
+		]
+	}
+}

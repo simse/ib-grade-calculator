@@ -1,0 +1,110 @@
+{
+  "id": "DANCE",
+	"name": "Dance",
+  "group": 6,
+	"levels": ["sl", "hl"],
+  "boundaries": {
+    "sl": [
+      {
+        "from": 0,
+        "to": 16
+      },
+      {
+        "from": 17,
+        "to": 36
+      },
+      {
+        "from": 37,
+        "to": 55
+      },
+      {
+        "from": 56,
+        "to": 64
+      },
+      {
+        "from": 65,
+        "to": 72
+      },
+      {
+        "from": 73,
+        "to": 82
+      },
+      {
+        "from": 83,
+        "to": 100
+      }
+    ],
+    "hl": [
+      {
+        "from": 0,
+        "to": 16
+      },
+      {
+        "from": 17,
+        "to": 34
+      },
+      {
+        "from": 35,
+        "to": 49
+      },
+      {
+        "from": 50,
+        "to": 60
+      },
+      {
+        "from": 61,
+        "to": 70
+      },
+      {
+        "from": 71,
+        "to": 81
+      },
+      {
+        "from": 82,
+        "to": 100
+      }
+    ]
+  },
+	"assessments": {
+		"sl": [
+      {
+				"id": "COMPOSITION_AND_ANALYSIS",
+				"name": "Composition and analysis",
+				"weight": 40,
+				"max_marks": 20
+			},
+			{
+				"id": "DANCE_INVESTIGATION",
+				"name": "Dance investigation",
+				"weight": 20,
+				"max_marks": 20
+			},
+			{
+				"id": "PERFORMANCE",
+				"name": "Performance",
+				"weight": 40,
+				"max_marks": 22
+			}
+		],
+		"hl": [
+      {
+				"id": "COMPOSITION_AND_ANALYSIS",
+				"name": "Composition and analysis",
+				"weight": 35,
+				"max_marks": 30
+			},
+			{
+				"id": "DANCE_INVESTIGATION",
+				"name": "Dance investigation",
+				"weight": 25,
+				"max_marks": 25
+			},
+			{
+				"id": "PERFORMANCE",
+				"name": "Performance",
+				"weight": 40,
+				"max_marks": 22
+			}
+		]
+	}
+}
