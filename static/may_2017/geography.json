@@ -1,0 +1,114 @@
+{
+	"id": "GEOGRAPHY",
+	"name": "Geography",
+	"group": 3,
+	"levels": ["sl", "hl"],
+	"boundaries": {
+		"sl": [{
+				"from": 0,
+				"to": 12
+			},
+			{
+				"from": 13,
+				"to": 27
+			},
+			{
+				"from": 28,
+				"to": 37
+			},
+			{
+				"from": 38,
+				"to": 49
+			},
+			{
+				"from": 50,
+				"to": 62
+			},
+			{
+				"from": 63,
+				"to": 74
+			},
+			{
+				"from": 75,
+				"to": 100
+			}
+		],
+		"hl": [{
+				"from": 0,
+				"to": 13
+			},
+			{
+				"from": 14,
+				"to": 27
+			},
+			{
+				"from": 28,
+				"to": 40
+			},
+			{
+				"from": 41,
+				"to": 51
+			},
+			{
+				"from": 52,
+				"to": 62
+			},
+			{
+				"from": 63,
+				"to": 73
+			},
+			{
+				"from": 74,
+				"to": 100
+			}
+		]
+	},
+	"assessments": {
+		"sl": [
+			{
+				"id": "PAPER_ONE",
+				"name": "Paper 1",
+				"weight": 40,
+				"max_marks": 60
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2",
+				"weight": 35,
+				"max_marks": 40
+			},
+			{
+				"id": "INTERNAL_ASSESSMENT",
+				"name": "Internal assessment (report)",
+				"weight": 25,
+				"max_marks": 30
+			}
+		],
+		"hl": [
+			{
+				"id": "PAPER_ONE",
+				"name": "Paper 1",
+				"weight": 25,
+				"max_marks": 60
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2",
+				"weight": 35,
+				"max_marks": 60
+			},
+			{
+				"id": "PAPER_THREE",
+				"name": "Paper 3",
+				"weight": 20,
+				"max_marks": 25
+			},
+			{
+				"id": "INTERNAL_ASSESSMENT",
+				"name": "Internal assessment (commentaries)",
+				"weight": 20,
+				"max_marks": 30
+			}
+		]
+	}
+}

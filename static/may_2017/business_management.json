@@ -1,0 +1,108 @@
+{
+	"id": "BUSINESS_MANAGEMENT",
+	"name": "Business Management",
+	"group": 3,
+	"levels": ["sl", "hl"],
+	"boundaries": {
+		"sl": [{
+				"from": 0,
+				"to": 10
+			},
+			{
+				"from": 11,
+				"to": 22
+			},
+			{
+				"from": 23,
+				"to": 31
+			},
+			{
+				"from": 32,
+				"to": 43
+			},
+			{
+				"from": 44,
+				"to": 57
+			},
+			{
+				"from": 58,
+				"to": 68
+			},
+			{
+				"from": 69,
+				"to": 100
+			}
+		],
+		"hl": [{
+				"from": 0,
+				"to": 12
+			},
+			{
+				"from": 13,
+				"to": 26
+			},
+			{
+				"from": 27,
+				"to": 37
+			},
+			{
+				"from": 38,
+				"to": 48
+			},
+			{
+				"from": 49,
+				"to": 58
+			},
+			{
+				"from": 59,
+				"to": 68
+			},
+			{
+				"from": 69,
+				"to": 100
+			}
+		]
+	},
+	"assessments": {
+		"sl": [
+			{
+				"id": "PAPER_ONE",
+				"name": "Paper 1",
+				"weight": 30,
+				"max_marks": 40
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2",
+				"weight": 45,
+				"max_marks": 50
+			},
+			{
+				"id": "WRITTEN_COMMENTARY",
+				"name": "Written commentary",
+				"weight": 25,
+				"max_marks": 25
+			}
+		],
+		"hl": [
+			{
+				"id": "PAPER_ONE",
+				"name": "Paper 1",
+				"weight": 35,
+				"max_marks": 60
+			},
+			{
+				"id": "PAPER_TWO",
+				"name": "Paper 2",
+				"weight": 40,
+				"max_marks": 70
+			},
+			{
+				"id": "RESEACH_PROJECT",
+				"name": "Research project",
+				"weight": 25,
+				"max_marks": 25
+			}
+		]
+	}
+}
